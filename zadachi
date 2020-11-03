@@ -1,0 +1,39 @@
+#1
+print("введите значение а")
+a=int(input())
+print("введите значение b")
+b=int(input())
+print("введите значение c")
+c=int(input())
+P=a+b+c
+print("P=",P)
+
+
+#2
+a=36.75
+b=40
+c=a/100*b
+d=3*(a-c)
+
+print('сумма трех товаров',d)
+
+#3
+a=12.90
+b=1.29
+c=(a+b)/3
+print(c)
+
+
+#4
+a=29.9
+b=a/60
+c=24
+
+print(round(b*c,2))
+
+#5
+import math
+a=16
+b=9
+c=math.sqrt((a**2)+(b**2))
+print('Гипотенуза',round(c,2))
